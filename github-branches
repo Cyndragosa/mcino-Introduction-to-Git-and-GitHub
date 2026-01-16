@@ -1,0 +1,4 @@
+theia@theia-cyndmarshall:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -vv
+  bug-fix-revert 0a6a16c Merge branch 'bug-fix-typo' This is to update a typo in the file
+  bug-fix-typo   c62c4fe Update footer in README.md
+* main           461235d [origin/main: ahead 4] Fix typo in documentation
