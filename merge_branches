@@ -1,0 +1,18 @@
+theia@theia-cyndmarshall:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push origin bug-fix-typo
+Username for 'https://github.com': cyndmarshall@gmail.com
+Password for 'https://cyndmarshall%40gmail.com@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Cyndragosa/mcino-Introduction-to-Git-and-GitHub.git
+   8d54920..c62c4fe  bug-fix-typo -> bug-fix-typo
+theia@theia-cyndmarshall:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+theia@theia-cyndmarshall:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
+Merge made by the 'ort' strategy.
